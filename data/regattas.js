@@ -2,7 +2,7 @@ module.exports = [
   {
     id: 1,
     name: 'Head of the Lake',
-    type: 'Head Race',
+    type_id: 2,
     city: 'Seattle',
     length_km: 5,
     recommend: false,
@@ -10,7 +10,7 @@ module.exports = [
   {
     id: 2,
     name: 'Windemere cup',
-    type: 'Sprint',
+    type_id: 1,
     city: 'Seattle',
     length_km: 2,
     recommend: true,
@@ -18,7 +18,7 @@ module.exports = [
   {
     id: 3,
     name: 'Head of the Charles',
-    type: 'Head Race',
+    type_id: 2,
     city: 'Boston',
     length_km: 5,
     recommend: true,
@@ -26,7 +26,7 @@ module.exports = [
   {
     id: 4,
     name: 'Samish Sprints',
-    type: 'Sprint',
+    type_id: 1,
     city: 'Bellingham',
     length_km: 1,
     recommend: true,
