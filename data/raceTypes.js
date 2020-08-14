@@ -1,8 +1,8 @@
 module.exports = [
   {
-    type: 'spirnt'
+    type: 'Sprint'
   },
   {
-    type: 'head race'
+    type: 'Head Race'
   }
 ]
