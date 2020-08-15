@@ -28,7 +28,7 @@ async function run() {
     await Promise.all(
       raceTypes.map(type => {
         return client.query(`
-                      INSERT INTO types (type)
+                      INSERT INTO raceTypes (type)
                       VALUES ($1)
                       `,
         [type.type]);

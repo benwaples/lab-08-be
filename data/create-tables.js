@@ -17,14 +17,14 @@ async function run() {
                     email VARCHAR(256) NOT NULL,
                     hash VARCHAR(512) NOT NULL
                 );
-                CREATE TABLE types (
+                CREATE TABLE raceTypes (
                   id SERIAL PRIMARY KEY NOT NULL,
                   type VARCHAR(256) NOT NULL
                 );           
                 CREATE TABLE regattas (
                     id SERIAL PRIMARY KEY NOT NULL,
                     name VARCHAR(512) NOT NULL,
-                    type_id INTEGER NOT NULL REFERENCES types(id),
+                    type_id INTEGER NOT NULL REFERENCES raceTypes(id),
                     city VARCHAR(512) NOT NULL,
                     length_km INTEGER NOT NULL, 
                     recommend BOOLEAN NOT NULL
